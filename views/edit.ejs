@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit the post</title>
+</head>
+<body>
+    <h2>Edit your form</h2>
+    <p>Post id:  <%= post.id %></p>
+    <p>Post username:  <%= post.username %></p>
+    <form method="post" action="/posts/<%= post.id %>?_method=PATCH">
+        <textarea name="content"></textarea>
+        <button>submit</button>
+    </form>
+    <a href="http://localhost:8080/posts">Go back</a>
+</body>
+</html>
