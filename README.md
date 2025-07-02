@@ -23,5 +23,5 @@ A minimal CRUD (Create, Read, Update, Delete) web app built with **Express.js** 
 
 ---
 
-##Lounch:  
+##Launch:  
 https://simple-post-manager.onrender.com
