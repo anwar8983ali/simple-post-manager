@@ -24,6 +24,9 @@ let posts=[{id:uuidv4() ,username:"apnaCollege",content:"I love doing coding"},
  {id:uuidv4(),username:"harry",content:"Love to teach technical subjects"}
 ]
 
+app.get("/", (req, res) => {
+  res.redirect("/posts");
+});
 app.get("/posts",(req,res)=>{
     res.render("index.ejs",{posts});
 })
