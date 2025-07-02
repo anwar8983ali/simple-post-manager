@@ -23,9 +23,5 @@ A minimal CRUD (Create, Read, Update, Delete) web app built with **Express.js** 
 
 ---
 
-## 🚀 How to Run Locally
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/anwar8983ali/simple-post-manager.git
-cd simple-post-manager
+##Lounch:  
+https://simple-post-manager.onrender.com
